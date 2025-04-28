@@ -45,7 +45,7 @@ jobs:
         run: pnpm install
 
       - name: Build 
-        run: pnpm run build
+        run: pnpm run build --base=/deploy-test/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
